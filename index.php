@@ -2,16 +2,16 @@
 <html>
 <head>
 	<title>Projeto 01</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="palavras-chave,do,meu,site">
-	<meta name="description" content="Descrição do meu website">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
+	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
+	<meta name="description" content="Descrição do meu website"><!--Para o google saber a descrição do site.-->
 	<meta charset="utf-8" />
 </head>
 <body>
 	<header>
 		<div class="center">
 			<div class="logo">Logomarca</div><!--logo-->
-			<nav class="desktop">
+			<nav class="desktop"><!--Navegação p/ desktop. Dependendo do tamanho da tela, ela ficará escondida e a mobile aparece.-->
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>
@@ -19,7 +19,7 @@
 					<li><a href="">Contato</a></li>
 				</ul>
 			</nav>
-			 <nav class="mobile">
+			 <nav class="mobile"><!--Navegação p/ mobile. Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>
@@ -42,7 +42,7 @@
 
 	<section class="descricao-autor">
 		<div class="center">
-			<div class="w50">
+			<div class="w50"><!--w50 sempre no css vai pegar 50% da largura da tela.-->
 				<h2>Guilherme C. Grillo</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -55,9 +55,8 @@
 	</section><!--descricao-autor-->
 
 	<section class="especialidades">
-
+		<h2 class="title">Especialidades</h2>
 		<div class="center">
-			<h2 class="title">Especialidades</h2>
 			<div class="box-especialidade">
 				<h3>icone1</h3>
 				<h3>CSS3</h3>
