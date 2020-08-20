@@ -4,6 +4,7 @@
 <head>
 	<title>Projeto 01</title>
 	<link href="estilo/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
 	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
 	<meta name="description" content="Descrição do meu website"><!--Para o google saber a descrição do site.-->
