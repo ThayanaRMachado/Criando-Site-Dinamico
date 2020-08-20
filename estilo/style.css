@@ -33,3 +33,30 @@
 .clear{
 	clear: both;
 }
+
+/*Estilização do site*/
+header{
+	padding: 20px;
+	background: #3D437A;
+}
+
+.mobile{
+	display: none; /*none p/ mostrar somente em telas menores.*/
+}
+
+nav.desktop ul{
+	list-style-type: none; /*Para ã aparecerem os 3 bolinhas nos tópicos.*/
+}
+
+nav.desktop li{
+	font-weight: 300;
+	font-size: 15px;
+	padding: 0 30px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}

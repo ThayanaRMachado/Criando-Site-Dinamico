@@ -4,7 +4,7 @@
 <head>
 	<title>Projeto 01</title>
 	<link href="estilo/style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400;1,700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/62ed879477.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
 	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
@@ -14,8 +14,8 @@
 <body>
 	<header>
 		<div class="center">
-			<div class="logo">Logomarca</div><!--logo-->
-			<nav class="desktop"><!--Navegação p/ desktop. Dependendo do tamanho da tela, ela ficará escondida e a mobile aparece.-->
+			<div class="logo left">Logomarca</div><!--logo-->
+			<nav class="desktop right"><!--Navegação p/ desktop.Dependendo do tamanho da tela, ela ficará escondida e a mobile aparece.-->
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>
@@ -23,7 +23,7 @@
 					<li><a href="">Contato</a></li>
 				</ul>
 			</nav>
-			 <nav class="mobile"><!--Navegação p/ mobile. Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
+			 <nav class="mobile right"><!--Navegação p/ mobile.Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>
@@ -31,6 +31,7 @@
 					<li><a href="">Contato</a></li>
 				</ul>
 			</nav>
+			<div class="clear"></div><!--Para o background voltar a aparecer-->
 		</div><!--center-->
 	</header>
 
@@ -54,12 +55,11 @@
 			<div class="w50 left">
 				<img src="images/foto.jpg">
 			</div><!--w50-->
-			<div class="clear"><!--sempre q/ trabalhar c/ flutuação e ñ ter problema de espaçamento.-->
+			<div class="clear"><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. p/ ñ ter problema de espaçamento.-->
 		</div><!--center-->
 	</section><!--descricao-autor-->
 
-	<section class="especialidades">
-		
+	<section class="especialidades">Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. S
 		<div class="center">
 		<h2 class="title">Especialidades</h2>
 			<div class="w33 left box-especialidade">
