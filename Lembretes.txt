@@ -1,10 +1,1 @@
 Onde parei no curso:
-Módulo #10: Criando Site Dinâmico - CSS/CSS3/Design Responsivo > Iniciando com CSS
-
-Abrir instruções do GIUHUB.
-
-Entrar no GitHub.
-
-Abrir a pasta de treino: C:\xampp\htdocs\Treino
-
-Abrir o projeto completo: C:\Users\thaya\OneDrive\Área de Trabalho\Thayana\Desenvolvimento\Curso Desenvolvimento Web Completo\Projeto 1

@@ -5,3 +5,31 @@
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+/*Boot CSS (Classes padrão q/ serão utilizadas durante todo o projeto.*/
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.w33{
+	width: 33.3%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
