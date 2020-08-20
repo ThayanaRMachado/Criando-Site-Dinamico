@@ -5,6 +5,7 @@
 	<title>Projeto 01</title>
 	<link href="estilo/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/62ed879477.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
 	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
 	<meta name="description" content="Descrição do meu website"><!--Para o google saber a descrição do site.-->
@@ -61,17 +62,17 @@
 		<h2 class="title">Especialidades</h2>
 		<div class="center">
 			<div class="box-especialidade">
-				<h3>icone1</h3>
+				<h3><i class="fab fa-css3"></i></h3>
 				<h3>CSS3</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
 			<div class="box-especialidade">
-				<h3>icone1</h3>
+				<h3><i class="fab fa-html5"></i></h3>
 				<h3>HTML5</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
 			<div class="box-especialidade">
-				<h3>icone1</h3>
+				<h3><i class="fab fa-js-square"></i></h3>
 				<h3>JavaScript</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
