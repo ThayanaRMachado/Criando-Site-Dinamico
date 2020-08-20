@@ -40,11 +40,20 @@ header{
 	background: #3D437A;
 }
 
+header .logo{
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: white;
+}
+
 .mobile{
 	display: none; /*none p/ mostrar somente em telas menores.*/
 }
 
 nav.desktop ul{
+	position: relative;
+	top: 6px;
 	list-style-type: none; /*Para ã aparecerem os 3 bolinhas nos tópicos.*/
 }
 
