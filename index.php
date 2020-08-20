@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Projeto 01</title>
+	<link href="estilo/style.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
 	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
 	<meta name="description" content="Descrição do meu website"><!--Para o google saber a descrição do site.-->
@@ -104,7 +106,6 @@
 			</div><!--w50-->
 		</div><!--center-->
 	</section><!--extras-->
-
 
 	<footer>
 		<div class="center">
