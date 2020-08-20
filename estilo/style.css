@@ -19,6 +19,7 @@
 }
 
 .w50{
+	padding: 0 10px;
 	width: 50%;
 }
 
@@ -129,3 +130,19 @@ section.banner-principal form input[type=submit]{
 	border: 0;
 }
 /*Fim formulário*/
+/*Início descricao-autor*/
+section.descricao-autor{
+	padding: 30px 0;
+}
+
+section.descricao-autor h2{
+	font-size: 28px;
+	font-weight: 400;
+	color: #444;
+}
+
+section.descricao-autor p{
+	font-size: 16px;
+	color: #444;
+	margin-top: 10px;
+}/*Fim descricao-autor*/

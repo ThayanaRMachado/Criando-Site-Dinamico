@@ -54,7 +54,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 			</div><!--w50-->
 			<div class="w50 left">
-				<img src="images/foto.jpg">
+				<img class="right" src="images/foto.jpg">
 			</div><!--w50-->
 			<div class="clear"><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. p/ ñ ter problema de espaçamento.-->
 		</div><!--center-->
