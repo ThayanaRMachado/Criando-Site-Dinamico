@@ -24,6 +24,10 @@
 				</ul>
 			</nav>
 			 <nav class="mobile right"><!--Navegação p/ mobile.Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
+			 	<!--O menu dará lugar a esse ícone qdo a tela reduzir p/ 700px-->
+			 	<div class="botao-menu-mobile">
+			 		<i class="fas fa-bars"></i>
+			 	</div>
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>

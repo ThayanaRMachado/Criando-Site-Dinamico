@@ -152,6 +152,50 @@ section.descricao-autor p{
 	margin-top: 10px;
 }/*Fim descricao-autor*/
 
+/*Início responsividade -menu*/
+@media screen and (max-width: 700px){
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+
+	.botao-menu-mobile{
+		font-size: 24px;
+		cursor: pointer;
+		color: white;
+	}
+
+	nav.mobile ul{
+		top: 55px;
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		display: none;
+		text-align: center;
+	}
+
+	nav.mobile li{
+	font-weight: 300;
+	width: 100%;
+	display: block;
+	background: white;
+	border-bottom: 1px solid #ccc;
+	font-size: 17px;
+	padding:8px 0;
+	}
+
+	nav.mobile li a{
+		display: block;
+		color: #444;
+		text-decoration: none;
+	}
+}/*Fim responsividade -menu*/
+
+
 /*Início responsividade -descricao-autor*/
 @media screen and(max-width: 768px){/*Configurações ideais de um celular até um tablet.*/
 	img{
@@ -165,5 +209,4 @@ section.descricao-autor p{
 		padding: 20px;
 		width: 100%;
 	}
-}
-/*Fim responsividade*/
+}/*Fim responsividade-descricao-autor*/
