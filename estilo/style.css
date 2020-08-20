@@ -8,6 +8,11 @@
 
 
 /*Boot CSS (Classes padrão q/ serão utilizadas durante todo o projeto.*/
+
+img{
+	width: 100%;/*Para não ter nenhum conflito de tamanho*/
+}
+
 .center{
 	max-width: 1280px;
 	padding: 0 2%;
@@ -92,7 +97,7 @@ section.banner-principal{
 /*Fim-banner-principal*/
 /*Formulário*/
 section.banner-principal form{
-	width: 98%;
+	width: 93%;
 	max-width: 600px;
 	z-index: 2;/*Esse vai depois do formulário.Qto. maior o nº, mais acima vai ficar.*/
 	position: absolute;
@@ -146,3 +151,19 @@ section.descricao-autor p{
 	color: #444;
 	margin-top: 10px;
 }/*Fim descricao-autor*/
+
+/*Início responsividade -descricao-autor*/
+@media screen and(max-width: 768px){/*Configurações ideais de um celular até um tablet.*/
+	img{
+		float: none !important;/*O importante reforça a reescrita da regra.*/
+		display: block;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+}
+/*Fim responsividade*/
