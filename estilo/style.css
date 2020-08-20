@@ -85,11 +85,47 @@ section.banner-principal{
 	top: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 1;/*Esse vai antes do formulário.Qto. maior o nº, mais acima vai ficar.*/
 	background-color: rgba(51,51,51,0.7);/*Para dar opacidade à imagem.*/
 }
-
-/*Formulário*/
-
-
-
 /*Fim-banner-principal*/
+/*Formulário*/
+section.banner-principal form{
+	width: 98%;
+	max-width: 600px;
+	z-index: 2;/*Esse vai depois do formulário.Qto. maior o nº, mais acima vai ficar.*/
+	position: absolute;
+	left: 50%;/*Ajuda na centralização do formulário*/
+	top: 50%;/*Ajuda na centralização do formulário*/
+	transform: translate(-50%,-50%);/*Tira a diferença da centralização é compatível c/ outros navegadores e deixa o site 100% responsivo.*/
+	-ms-transform:translate(-50%,-50%);
+}
+
+section.banner-principal form h2{
+	color: white;
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+	width: 100%;
+	height: 66px;
+	margin-top: 10px;
+	background: white;
+	color: #333;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+section.banner-principal form input[type=submit]{
+	width: 100%;
+	height: 66px;
+	margin-top: 10px;
+	background: #00C59E;
+	color: white;
+	cursor: pointer;
+	font-size: 22px;
+	border: 0;
+}
+/*Fim formulário*/
