@@ -122,5 +122,14 @@
 			<p>Todos os direitos reservados</p>
 		</div><!--center-->
 	</footer>
+	<script src="js/jquery.js"></script>
+	<script>
+		//Aqui vão ficar todos os códios javaScript.
+		/*$(function(){
+			var mensagem = 'Olá Mundo';
+			console.log(mensagem);
+			alert(mensagem);
+		})*/
+	</script>
 </body>
 </html>
