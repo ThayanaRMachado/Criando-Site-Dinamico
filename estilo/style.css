@@ -22,6 +22,7 @@ img{
 
 .w33{
 	width: 33.3%;
+	padding: 0 10px;
 }
 
 .w50{
@@ -138,7 +139,7 @@ section.banner-principal form input[type=submit]{
 /*Fim formulário*/
 /*Início descricao-autor*/
 section.descricao-autor{
-	padding: 30px 0;
+	padding: 40px 0;
 }
 
 section.descricao-autor h2{
@@ -153,6 +154,42 @@ section.descricao-autor p{
 	font-weight: 300;
 	margin-top: 10px;
 }/*Fim descricao-autor*/
+
+/*Início ícones*/
+section.especialidades{
+	padding: 40px 0;
+	background: #E2E2E2;
+}
+
+section.especialidades h2.title{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	color: #999;
+}
+
+.box-especialidade{
+	margin: 40px 0;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.box-especialidade h3{
+	color: #404580;
+	font-size: 40px;
+}
+
+.box-especialidade h4{
+	font-weight: 300;
+	font-size: 25px;
+	color: #BABABA;
+}
+
+.box-especialidade p{
+	color: #444;
+	font-size: 15px;
+	margin-top: 10px;
+}/*Fim Ícones*/
 
 /*Início responsividade -menu*/
 @media screen and (max-width: 700px){

@@ -60,28 +60,29 @@
 			<div class="w50 left">
 				<img class="right" src="images/foto.jpg">
 			</div><!--w50-->
-			<div class="clear"><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. p/ ñ ter problema de espaçamento.-->
+			<div class="clear"></div><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. p/ ñ ter problema de espaçamento.-->
 		</div><!--center-->
 	</section><!--descricao-autor-->
 
-	<section class="especialidades">Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. S
+	<section class="especialidades"><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar.-->
 		<div class="center">
 		<h2 class="title">Especialidades</h2>
 			<div class="w33 left box-especialidade">
 				<h3><i class="fab fa-css3"></i></h3>
-				<h3>CSS3</h3>
+				<h4>CSS3</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
 			<div class="w33 left box-especialidade"><!--Será utilizada qdo. tiver 3 box na mesma fileira.-->
 				<h3><i class="fab fa-html5"></i></h3>
-				<h3>HTML5</h3>
+				<h4>HTML5</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
 			<div class="w33 left box-especialidade">
 				<h3><i class="fab fa-js-square"></i></h3>
-				<h3>JavaScript</h3>
+				<h4>JavaScript</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			</div><!--box-especialidade-->
+			<div class="clear"></div>
 		</div><!--center-->
 	</section><!--especialidades-->
 
