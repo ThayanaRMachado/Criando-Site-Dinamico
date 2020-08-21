@@ -191,6 +191,52 @@ section.especialidades h2.title{
 	margin-top: 10px;
 }/*Fim Ícones*/
 
+/*Início extras*/
+section.extras{
+	padding: 30px 0;
+	background: #404580;
+}
+
+.servicos-container,.depoimentos-container{
+	padding: 0 30px;
+}
+
+section.extras .title{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.depoimento-single{
+	padding: 15px 0;
+	border-bottom: 1px solid #5056A0;
+}
+
+p.depoimento-descricao{
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+p.nome-autor{
+	font-size: 15px;
+	color: white;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.servicos ul{
+	margin: 20px 0;
+}
+
+.servicos li{
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+}/*Fim extras*/
+
 /*Início responsividade -menu*/
 @media screen and (max-width: 700px){
 	nav.desktop{
