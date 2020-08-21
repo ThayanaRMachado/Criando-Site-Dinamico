@@ -247,4 +247,14 @@ section.especialidades h2.title{
 		padding: 20px;
 		width: 100%;
 	}
+
+	.w33{/*Responsividade ícones*/
+		width: 100%;
+		padding:20px;
+	}
+
+	.box-especialidade{
+		padding: 40px 20px;
+		margin: 0;
+	}/*Fim responsividade ícones*/
 }/*Fim responsividade-descricao-autor*/
