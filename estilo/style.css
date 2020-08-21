@@ -11,7 +11,7 @@
 
 img{
 	width: 100%;/*Para não ter nenhum conflito de tamanho*/
-	max-width: 500px;/*Largura aplicada de maneira geral.*/
+	max-width: 300px;/*Largura aplicada de maneira geral.*/
 }
 
 .center{
