@@ -150,6 +150,7 @@ section.descricao-autor h2{
 section.descricao-autor p{
 	font-size: 16px;
 	color: #444;
+	font-weight: 300;
 	margin-top: 10px;
 }/*Fim descricao-autor*/
 
