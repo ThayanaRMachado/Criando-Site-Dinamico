@@ -9,6 +9,11 @@
 
 /*Boot CSS (Classes padrão q/ serão utilizadas durante todo o projeto.*/
 
+html, body{
+	overflow: hidden;
+	height: 100%;
+}
+
 img{
 	width: 100%;/*Para não ter nenhum conflito de tamanho*/
 	max-width: 300px;/*Largura aplicada de maneira geral.*/
@@ -250,17 +255,52 @@ footer{
 	padding: 30px 0;
 }
 
+
+footer.fixed{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
 footer p{
 	color: white;
 	text-align: center;
 	font-weight: 400;
 	font-size: 16px;
 }
-section.erro-404{
-	padding: 30px 0;
+
+section.erro-404 h2{
+	text-align: center;
+	color: #444;
+	font-weight: 400;
+	font-size: 28px;
+	border-top: 2px solid #444;
 }
 
-section.
+section.erro-404 p{
+	margin-top:8px;
+	text-align: center;
+	font-size: 16px;
+	color: #444;
+	font-weight: 300;
+}
+
+section.erro-404 a{
+	color: #444;
+}
+
+.wraper-404{
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	width: 100%;
+	left: 50%;
+	padding: 0 2%;
+	max-width: 1280px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+}
+
 
 /*Início responsividade -descricao-autor*/
 /*Se for <= do q/ 768px, aplica esse estilo ao responsivo. Sempre tem q/ ir do > p/ o <.*/
