@@ -256,7 +256,11 @@ footer p{
 	font-weight: 400;
 	font-size: 16px;
 }
+section.erro-404{
+	padding: 30px 0;
+}
 
+section.
 
 /*Início responsividade -descricao-autor*/
 /*Se for <= do q/ 768px, aplica esse estilo ao responsivo. Sempre tem q/ ir do > p/ o <.*/
