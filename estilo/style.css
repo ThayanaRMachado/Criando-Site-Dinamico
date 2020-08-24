@@ -14,6 +14,10 @@ html, body{
 	height: 100%;
 }
 
+input {
+	border: 0;
+}
+
 img{
 	width: 100%;/*Para não ter nenhum conflito de tamanho*/
 	max-width: 300px;/*Largura aplicada de maneira geral.*/
