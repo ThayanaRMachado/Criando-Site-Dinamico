@@ -1,11 +1,11 @@
-
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Projeto 01</title>
-	<link href="estilo/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400;1,700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/62ed879477.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/62ed879477.js" crossorigin="anonymous" href="<?php echo INCLUDE_PATH; ?>"></script>
+	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tag do design responsivo--> 
 	<meta name="keywords" content="palavras-chave,do,meu,site"><!--Palavras chave do site-->
 	<meta name="description" content="Descrição do meu website"><!--Para o google saber a descrição do site.-->
@@ -17,10 +17,10 @@
 			<div class="logo left"><a href="/">Logomarca</a></div><!--logo-->
 			<nav class="desktop right"><!--Navegação p/ desktop.Dependendo do tamanho da tela, ela ficará escondida e a mobile aparece.-->
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Depoimentos</a></li>
-					<li><a href="">Serviços</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>contatos">Contato</a></li>
 				</ul>
 			</nav>
 			 <nav class="mobile right"><!--Navegação p/ mobile.Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
@@ -29,10 +29,10 @@
 			 		<i class="fas fa-bars"></i>
 			 	</div>
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Depoimentos</a></li>
-					<li><a href="">Serviços</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>"sobre>Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>"servicos>Serviços</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>"contatos>Contato</a></li>
 				</ul>
 			</nav>
 			<div class="clear"></div><!--Para o background voltar a aparecer-->
@@ -58,7 +58,7 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 			</div><!--w50-->
 			<div class="w50 left">
-				<img class="right" src="images/foto.jpg">
+				<img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg">
 			</div><!--w50-->
 			<div class="clear"></div><!--Ao utilizar float, a altura ñ é mais calculada e tem q/ limpar. p/ ñ ter problema de espaçamento.-->
 		</div><!--center-->
@@ -122,8 +122,8 @@
 			<p>Todos os direitos reservados</p>
 		</div><!--center-->
 	</footer>
-	<script src="js/jquery.js"></script>
+	<script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
 	<!--/Aqui vão ficar todos os códios javaScript.-->
-	<script src="js/scripts.js"></script><!--está importando arquivos externos-->
+	<script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script><!--está importando arquivos externos-->
 </body>
 </html>
