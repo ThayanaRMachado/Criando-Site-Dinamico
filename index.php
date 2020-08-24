@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<div class="center">
-			<div class="logo left">Logomarca</div><!--logo-->
+			<div class="logo left"><a href="/">Logomarca</a></div><!--logo-->
 			<nav class="desktop right"><!--Navegação p/ desktop.Dependendo do tamanho da tela, ela ficará escondida e a mobile aparece.-->
 				<ul>
 					<li><a href="">Home</a></li>
