@@ -20,7 +20,7 @@
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
 					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>contatos">Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
 			</nav>
 			 <nav class="mobile right"><!--Navegação p/ mobile.Dependendo do tamanho da tela, ela ficará escondida e a desktop aparece.-->
@@ -30,9 +30,9 @@
 			 	</div>
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>"sobre>Sobre</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>"servicos>Serviços</a></li>
-					<li><a href="<?php echo INCLUDE_PATH; ?>"contatos>Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 				</ul>
 			</nav>
 			<div class="clear"></div><!--Para o background voltar a aparecer-->
@@ -59,5 +59,11 @@
 	<script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
 	<!--/Aqui vão ficar todos os códios javaScript.-->
 	<script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script><!--está importando arquivos externos-->
+	<?php
+		if($url == 'contato'){//Para não carregar nas outras páginas.
+	?>
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
+	<script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
+	<?php } ?>
 </body>
 </html>

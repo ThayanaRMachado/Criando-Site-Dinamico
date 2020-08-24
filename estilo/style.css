@@ -305,6 +305,10 @@ section.erro-404 a{
 	top: 50%;
 }
 
+#map{
+	width: 100%;
+	height: 400px;
+}
 
 /*Início responsividade -descricao-autor*/
 /*Se for <= do q/ 768px, aplica esse estilo ao responsivo. Sempre tem q/ ir do > p/ o <.*/
