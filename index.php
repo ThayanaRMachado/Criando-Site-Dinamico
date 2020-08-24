@@ -123,13 +123,7 @@
 		</div><!--center-->
 	</footer>
 	<script src="js/jquery.js"></script>
-	<script>
-		//Aqui vão ficar todos os códios javaScript.
-		/*$(function(){
-			var mensagem = 'Olá Mundo';
-			console.log(mensagem);
-			alert(mensagem);
-		})*/
-	</script>
+	<!--/Aqui vão ficar todos os códios javaScript.-->
+	<script src="js/scripts.js"></script><!--está importando arquivos externos-->
 </body>
 </html>
